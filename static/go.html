@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Screen</title>
+  
+  <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="js/go.js" defer></script>
+    <script src="js/search.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200;300&display=swap');
+    body {
+        font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      overflow: hidden;
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      height: 100vh;
+    }
+
+    .loading-container {
+      text-align: center;
+    }
+
+    .loader {
+        display: flex;
+        align-self: center;
+      border: 8px solid #4d4d4d;
+      border-top: 8px solid #fff;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 10px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      font-size: 18px;
+    }
+
+    .b-box {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: ;
+      z-index: 1000; /* Adjust z-index as needed */
+    }
+
+    .browser-part,
+    .url-bar,
+    .exit-part {
+      background-color: #272626ff;
+      height: 50px;
+      border-radius: 100px;
+      margin: 15px;
+    }
+
+    .url-bar h1 {
+      font-size: 20px;
+    }
+
+    .browser-part {
+      width: 130px;
+    }
+
+    .url-bar {
+      flex-grow: 1; /* Takes up remaining space */
+      width: auto;
+    }
+
+    .exit-part {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 80px;
+    }
+
+    .exit-part img {
+      margin-top: 6px;
+      height: 80%;
+      width: 80;
+    }
+    .c-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 90vh;
+    }
+
+    .browser-part img {
+      margin-left: 15px;
+      margin-top: 6px;
+      height: 80%;
+      width: 80;
+    }
+
+    iframe {
+      border: 0px;
+      margin-top: 70px;
+      height: 90vh;
+      width: 100%;
+    }
+  </style>
+  
+</head>
+<body>
+  <div class="b-box">
+    <div class="browser-part">
+      <img src="imagen/refresh.png" onclick="refresh()">
+      <img src="imagen/FullScreen.png" onclick="fs()">
+    </div>
+  <div class="url-bar" id="url">
+  </div>
+  <div class="exit-part">
+    <img src="imagen/Salir.png" onclick="leave()">
+  </div>
+  </div>
+ <div class="c-center" id="loadingScreen">
+  
+  <div class="loading-container" >
+    <center><div class="loader"></div></center>
+    <center><h1>Your content is Loading...</h1></center>
+    <center><p>Please wait our servers may be on high load!</p></center>
+  </div>
+ </div>
+ <script>
+  function leave() {
+    window.location.href= document.referrer
+  }
+
+  function fs() {
+    const IContent = document.getElementById('content')
+    fullscreen.onclick = function() {
+    if (IContent.requestFullscreen) {
+      IContent.requestFullscreen();
+    } else if (IContent.webkitRequestFullscreen) { /* Safari */
+      IContent.webkitRequestFullscreen();
+    } else if (IContent.msRequestFullscreen) { /* IE11 */
+      IContent.msRequestFullscreen();
+    }
+  }
+  }
+
+  function refresh() {
+    var iframe = document.getElementById('content')
+    var i = document.getElementById('content').src
+    var one = btoa(i);
+    var two = atob(one);
+    iframe.src = two
+    iframe.src = "about:blank"
+    iframe.src = two
+  }
+ </script>
+</body>
+</html>

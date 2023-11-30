@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Seismetic</title>
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="s-style.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/Paginas.js" defer></script>
+    <script src="smartBar/smartbar.js"></script>
+  <script src="smartBar/smartbarBattery.js"></script>
+  </head>
+
+  <body>
+    <div class="topbar" id="tpbr">
+      <div class="dropdown-m-activator">
+          <img src="./smartBar/Sldiebar.png" onclick="sidebar()">
+          <div id="dropdownMenu" class="dropdown-menu" style="display: none;">
+            <div class="dropdown-item" onclick="games()">Games</div>
+            <div class="dropdown-item" onclick="apps()">Apps</div>
+            <div class="dropdown-item" onclick="settings()">Settings</div>
+            <div class="dropdown-item" onclick="widgets()">Widgets</div>
+            <div class="dropdown-item" onclick="Search()">Search</div>
+            <div class="dropdown-item" onclick="credits()">Credits</div>
+          </div>
+      </div>
+      <div class="tp-logo">
+          <img src="./smartBar/seisimetic_Transparent.png">
+      </div>
+      <div class="tp-app">
+          <img src="./smartBar/games.png" onclick="games()">
+          <img src="./smartBar/apps.png" onclick="apps()">
+          <img src="./smartBar/settings.png" onclick="settings()">
+      </div>
+    </div>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+    <div class="centerybentery" id="mainContent">
+      <img src="./imagen/seisimetic_Transparent.png" style="width: 500px; height: 250px; display: flex; align-self: center;">
+      <form id="uv-form" class="flex-center">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"
+        />
+        <input id="uv-address" type="text" placeholder="Search the web freely" />
+      </form>
+      <p>The bigger the blacker - tyson strings</p>
+    </div>
+  </body>
+</html>

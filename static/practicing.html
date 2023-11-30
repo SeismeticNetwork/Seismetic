@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Seismetic</title>
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="s-style.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/Paginas.js" defer></script>
+    <script src="js/g.js" defer></script>
+    <script src="smartBar/smartbar.js"></script>
+  <script src="smartBar/smartbarBattery.js"></script>
+  </head>
+
+  <body onload="refreshAppContainer()">
+    <div class="topbar" id="tpbr">
+      <div class="dropdown-m-activator">
+          <img src="./smartBar/Sldiebar.png" onclick="sidebar()">
+          <div id="dropdownMenu" class="dropdown-menu" style="display: none;">
+            <div class="dropdown-item" onclick="games()">Games</div>
+            <div class="dropdown-item" onclick="apps()">Apps</div>
+            <div class="dropdown-item" onclick="settings()">Settings</div>
+            <div class="dropdown-item" onclick="widgets()">Widgets</div>
+            <div class="dropdown-item" onclick="buscar()">Search</div>
+            <div class="dropdown-item" onclick="credits()">Credits</div>
+          </div>
+      </div>
+      <div class="tp-logo">
+          <img src="./smartBar/seisimetic_Transparent.png">
+      </div>
+      <div class="tp-app">
+          <img src="./smartBar/games.png" onclick="games()">
+          <img src="./smartBar/apps.png" onclick="apps()">
+          <img src="./smartBar/settings.png" onclick="settings()">
+      </div>
+    </div>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+    <div class="page-top-essentials" style="margin-top: 90px;">
+      <input type="text" id="cont-search-box" placeholder="Search for apps" onkeyup="search_item()" autocomplete="off">
+      <div class="selection-container">
+          <button id="Modern" onclick="Modern()">Modern</button>
+          <button id="Compact" onclick="Compact()">Compact</button>
+      </div>
+      <button class="custom-appliance-buttons" id="one">Add Custom App</button>
+      <button class="custom-appliance-buttons" id="two">Clear Custom</button>
+  </div>
+  <div class="appliance-center-container" id="holder">
+  </body>
+</html>

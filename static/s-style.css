@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200;300&display=swap');
+body {
+  background-color: #0d0d0dff;
+  color: white;
+  font-family: sans-serif;
+}
+
+.topbar {
+  transition: width 0.5s, height 0.5s;
+  gap: 60px;
+  align-content: center;
+    border-radius: 15px;
+    margin-top: 8px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 630px;
+    height: 70px;
+    background-color: #161515ff;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .dropdown-m-activator {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 55px;
+    height: 50px;
+    background-color: #2c2929ff;
+  }
+
+  .dropdown-m-activator img {
+    margin-top: 5px;
+    display: flex;
+    width: 70%;
+    height: 80%;
+  }
+
+  .tp-logo {
+    margin-top: -5px;
+    margin-left: 60px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .tp-logo img {
+    width: 150px;
+    height: 80px;
+  }
+
+  .tp-app {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0);
+  }
+  .tp-app img {
+    transition: all 0.3s ease;
+  }
+  .tp-app img:hover {
+    border-radius: 100px;
+    background-color: #2c2929ff;
+    border: #2c2929ff solid 3px;
+  }
+
+  /* Add this CSS to your existing style.css */
+.dropdown-menu {
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 120px;
+  position: absolute;
+  top: 60px; /* Adjust the distance from the topbar as needed */
+  left: 0;
+  background-color: #161515ff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item {
+  margin-top: 15px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  margin-left: 15px;
+  padding: 10px;
+  color: white;
+  width: 60%;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+
+
+.centerybentery {
+  animation: fadeIn 0.5s;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#uv-address {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.515);
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px 17px;
+  height: 48px;
+  border: 2px solid rgba(255, 255, 255, 0.623);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: width 0.5s ease, border-radius 0.5s ease 0.1s
+}
+
+#uv-address:focus {
+  width: 800px;
+  border: 1px solid rgba(253, 253, 253, 0.514);
+  border-radius: 6px;
+}
+
+.appliance-container {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 220px;
+  border-radius: 15px;
+  border: 1px solid #343437;
+  background-color: #1e1e1e;
+}
+
+.appliance-container h1 {
+  font-size: 25px;
+}
+.ap-logo-cntr {
+  margin-left: 40px;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 120px;
+  height: 110px;
+  background-color: #2a2a2aff;
+  border-radius: 8px;
+  transition: border-color 0.5s ease-in-out;
+}
+
+.ap-logo-cntr img {
+  border-radius: 4px;
+  width: 110px;
+  height: 100px;
+}
+
+.appliance-container:hover {
+  transition: border-color 0.5s ease-in-out;
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.app-box {
+  display: block;
+  margin-top: 15px;
+  border-radius: 25px;
+  height: 245px;
+  background-color: #1f1f1fff;
+  width: 350px;
+}
+
+.app-box-image {
+  width: 95%;
+  height: 160px;
+}
+
+.app-box-text {
+display: flex;
+flex-direction: row;
+font-size: 12px;
+color: white;
+width: 95%;
+height: 40px;
+margin-left: 7px;
+margin-top: 23px;
+}
+
+.app-box-text h1 {
+  margin-left: 25px;
+  margin-top: 4px;
+}
+
+.app-box-text img {
+  background-color: #373636ff;
+  border-radius: 10px;
+  height: 42px;
+  width: 42px;
+}
+
+.app-box-text button {
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #6aa84fff;
+  color: white;
+  border: 0px;
+  border-radius: 12px;
+  height: 52px;
+  width: 52px;
+  margin-left: auto;
+}
+
+.app-box-text button:hover {
+  cursor: pointer;
+  background-color: rgb(109, 209, 66);
+}
+
+.app-box-image img {
+  border: none;
+  background-color: #373636ff;
+  margin-left: 7px;
+  margin-top: 12px;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+#cont-search-box {
+  text-align: center;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  margin-left: 35px;
+  background-color: transparent;
+  display: flex;
+  border-radius: 8px;
+  height: 42px;
+  width: 430px;
+  border: solid 1px rgb(114, 114, 114);
+}
+
+.page-top-essentials {
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+  width: 80%;
+  height: 50px;
+  background-color: transparent;
+}
+
+.selection-container {
+  display: flex;
+ justify-content: center;
+  margin-left: 25px;
+  height: 42px;
+  width: 250px;
+  border-radius: 25px;
+  background-color: rgb(38, 38, 38);
+}
+
+.selection-container button {
+  color: white;
+  border-radius: 25px;
+  background-color: rgb(82, 78, 78);
+  border: 1px solid rgb(61, 55, 55);
+  margin: 3px;
+  align-self: center;
+  height: 30px;
+  width: 110px;
+}
+
+.custom-appliance-buttons {
+  font-size: 11px;
+  color: white;
+  border: 1px solid rgb(84, 78, 78);
+  background-color: rgb(54, 50, 50);
+  margin-top: 5px;
+  height: 35px;
+  width: 110px;
+  border-radius: 8px;
+}
+
+#one {
+  margin-left: 45px;
+}
+
+#two {
+  margin-left: 5px;
+}
+
+.custom-appliance-buttons:hover {
+  cursor: pointer;
+  background-color: rgb(123, 119, 119);
+}
+
+.page-top-essentials {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.page-top-essentials > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.appliance-center-container {
+  animation: fadeIn 0.5s;
+  gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
