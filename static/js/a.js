@@ -14,6 +14,13 @@ var objects = [
         'URL' : 'https://youtube.com'
     },
     {
+        'Name' : 'Instagram',
+        'Icon' : '../img/icon/Instagram.png',
+        'Banner' : '../img/banners/Instagram.png',
+        'Method' : 'Launch',
+        'URL' : 'https://now.gg/apps/instagram/1228/instagram.html'
+    },
+    {
         'Name' : 'BFlix',
         'Icon' : '../img/icon/bflix.png',
         'Banner' : '../img/banners/BFlixBanner.png',
@@ -159,6 +166,20 @@ var objects = [
         'Banner' : '../img/banners/VsCode.png',
         'Method' : 'Launch',
         'URL' : 'https://vscode.dev'
+    },
+    {
+        'Name' : 'Zoro TO',
+        'Icon' : '../img/icon/zoroto.png',
+        'Banner' : '../img/banners/ZoroTo-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://zoro.to'
+    }, 
+    {
+        'Name' : '9Anime',
+        'Icon' : '../img/icon/9anime.png',
+        'Banner' : '../img/banners/9anime.png',
+        'Method' : 'Launch',
+        'URL' : 'https://9anime.to'
     }, 
     {
         'Name' : 'WhatsApp',

@@ -142,15 +142,13 @@
 
   function fs() {
     const IContent = document.getElementById('content')
-    fullscreen.onclick = function() {
     if (IContent.requestFullscreen) {
       IContent.requestFullscreen();
     } else if (IContent.webkitRequestFullscreen) { /* Safari */
       IContent.webkitRequestFullscreen();
     } else if (IContent.msRequestFullscreen) { /* IE11 */
       IContent.msRequestFullscreen();
-    }
-  }
+    };
   }
 
   function refresh() {

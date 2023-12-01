@@ -1,11 +1,60 @@
 var objects = [
   {
+    'Name' : 'Snow Rider',
+    'Icon' : '../img/icon/snow-rider.jpeg',
+    'Banner' : '../img/banners/SnowRider.png',
+    'Method' : 'Launch',
+    'URL' : 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml'
+},
+{
+  'Name' : 'Doodlr',
+  'Icon' : '../img/icon/Doodlr-LOGO.PNG',
+  'Banner' : '../img/banners/Doodlr.png',
+  'Method' : 'Launch',
+  'URL' : 'https://doodlr.io'
+},
+  {
+    'Name' : 'Draw Climber',
+    'Icon' : '../img/icon/draw-climber.jpg',
+    'Banner' : '../img/banners/DrawClimber.png',
+    'Method' : 'Launch',
+    'URL' : 'https://www.miniplay.com/embed/draw-climber'
+},
+  {
       'Name' : 'Volleyball Random',
       'Icon' : '../img/icon/volleyball.png',
       'Banner' : '../img/banners/Volleyballrandom.png',
       'Method' : 'Launch',
-      'URL' : 'https://games.crazygames.com/en_US/volley-random/index.html'
+      'URL' : 'https://files.twoplayergames.org/files/games/o1/Volley_random/index.html'
   },
+  {
+    'Name' : 'Roblox',
+    'Icon' : '../img/icon/roblox.png',
+    'Banner' : '../img/banners/roblox.png',
+    'Method' : 'Launch',
+    'URL' : 'https://now.gg/play/roblox-corporation/5349/roblox'
+},
+{
+  'Name' : 'Roblox 2',
+  'Icon' : '../img/icon/roblox.png',
+  'Banner' : '../img/banners/roblox.png',
+  'Method' : 'Launch',
+  'URL' : 'https://nowgg.nl/play/roblox-corporation/5349/roblox'
+},
+{
+  'Name' : 'Territorial IO',
+  'Icon' : '../img/icon/territorialpng.png',
+  'Banner' : '../img/banners/territorialio.png',
+  'Method' : 'Launch',
+  'URL' : 'https://territorial.io'
+},
+{
+  'Name' : 'Tetr IO',
+  'Icon' : '../img/icon/tetr.jpeg',
+  'Banner' : '../img/banners/tetr.png',
+  'Method' : 'Launch',
+  'URL' : 'https://tetr.io'
+},
   {
     'Name' : 'Minecraft Classic',
     'Icon' : '../img/icon/mc-classic.jpg',
@@ -33,6 +82,13 @@ var objects = [
     'Banner' : '../img/banners/1v1lol.png',
     'Method' : 'Launch',
     'URL' : 'https://1v1.lol'
+  },
+  {
+    'Name' : 'Justfall.lol',
+    'Icon' : '../img/icon/justfall.png',
+    'Banner' : '../img/banners/justfall.png',
+    'Method' : 'Launch',
+    'URL' : 'https://justfall.lol/'
   },
   {
     'Name' : 'ZombsRoyale',
