@@ -1,5 +1,19 @@
 var objects = [
   {
+    'Name' : 'FNAF 2',
+    'Icon' : '../img/icon/FNAF2.png',
+    'Banner' : '../img/banners/FNAF2.png',
+    'Method' : 'Launch',
+    'URL' : 'https://sussygamedeveloper.github.io/FNAF2/'
+},
+{
+  'Name' : 'FNAF 3',
+  'Icon' : '../img/icon/FNAF3.png',
+  'Banner' : '../img/banners/FNAF3.png',
+  'Method' : 'Launch',
+  'URL' : 'https://sussygamedeveloper.github.io/fnaf3/'
+},
+  {
     'Name' : 'Snow Rider',
     'Icon' : '../img/icon/snow-rider.jpeg',
     'Banner' : '../img/banners/SnowRider.png',
@@ -410,7 +424,7 @@ var objects = [
     'Icon' : '../img/icon/deepest-sword.png',
     'Banner' : '../img/banners/deepestsword.png',
     'Method' : 'Launch',
-    'URL' : 'https://luminixassets.pages.dev/deepest-sword'
+    'URL' : 'https://rxfe-a.github.io/SeismeticAssets/deepest-sword/'
   },
   {
     'Name' : 'Interactive Buddy',
@@ -606,7 +620,7 @@ var objects = [
 'Icon': './img/icon/cat-ninja.png',
 'Banner': './img/banners/CatNinja.png',
 'Method': 'Launch',
-'URL': 'https://luminixassets.pages.dev/catninja'
+'URL': 'https://seismetic-assets.vercel.app/CatNinja/'
 },
 {
 'Name': 'Candybox',
@@ -690,7 +704,7 @@ var objects = [
 'Icon': './img/icon/cutrope.jpg',
 'Banner': './img/banners/CutTheRope.png',
 'Method': 'Launch',
-'URL': './gameFiles/CutTheRope'
+'URL': 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://638401824-140825937501728463.preview.editmysite.com/uploads/b/139890129-351488130894771558/files/ctr.xml'
 },
 {
 'Name': 'SuperMarioBros',
@@ -915,7 +929,14 @@ var objects = [
 'Banner': './img/banners/tunnelrush2.png',
 'Method': 'Launch',
 'URL': 'https://seismetic-assets.vercel.app/tunnelrush-fix.html'
-}
+},
+{
+  'Name': 'TABS',
+  'Icon': 'https://lh3.google.com/u/0/d/1nGazKMR5vTIzqo4Eq4l_BfP9ypqS4LnP=w1920-h883-iv1',
+  'Banner': 'https://lh3.googleusercontent.com/fife/AK0iWDyb4JqlacCcW4q2IoQKBHzWQ04WrFKXvzHORh0ss3w49EPfU7cXgITN28oc6f0eIH92tYA413zPgiYB1Tkd4PR0EsVJHQAey35xv_QPzvNl7Ok0DrDgrFaS7X3S2IStK3FcUDPvK2iEv7lV84GmN64PErLWdAksmnRCWq8NkC1jZ50pwlQfuV77MRqhEkw8Kf55dNmpcTBMMWcKA_uOdR2ff4dVRYOjZWEuM4gA-VUrSdHTtwvkgkK3Sm8fuiMloVnvpa4SH0kbatZ5aZwS8hNW-2uNVD26q38xIY8cEp68iW4IByczOIRXhdvz8bHIkAPJAqMYwTPU1ND6dZPNq8v5R_ZJ3fHBTgW5gQ1QCkltTScfq9_5ZGxQc3DF-5Lhsh-7D9w0XkJPgUEY1VK1K0xoAszS3qOl4-XAghLTRqJna41gdW1H3bcKbyNTAIxO0QzPbgl84ngvHTwOhyZ04JY5mRJIkT5ZklYKmlnLq_o44noxuKWuOURPHu4QrXDeY5ybve5yyGb9ALgFlQU1ni0fIyqs4yJQZ8ysB0-YM9Vy2cNXQ4x1mOPmsC9WGm8Qzn8HKH53a17bkIonUnCwuBL97ekri9qNneCWv7tXL1-Qo7IIvKE2ac5pP_LZOq9yCY7rP8fbUiZBIoPUcJg9UI83O5lHBs2MDtluejdJAUb76qrFEP-S9SMrDZHHb3RkH3Y8BIEBkhu6wnwwlxGwz6x39leWuuhcM1riKc_t-ZSK-Vp4DobHyH1hi5HVuuPTaBVzRIn_Q_WgJDdGaufyuob9Y1bKnHUl6Rwn8zs1sAIX_3p_njVATXyeoFqHOV2ke_Dg8fOJrkgNIwj7i6kdl2L86kmUtBb_wa5tP1wnDrTpQ50Mwh_RA6OLuDq_MfD-nm7bsHopNwLMV5WIRK3fFK-cV_d1SRiH_DBjoFa1L3R8bKfCyU29t-vRuwamywY-XenJKdj8m0jzBpjdTOmu6cvHLF4_vkAlreCmTooVbk7_J1DWlWXewo7nwOYGkitNe4vzBE30neTjUf5F4DZzq8fgt7OHahnj0S_0BjDZqFgkcZZHwvMXlgbB7XjiLKwZv7K9-QXf7TOk0BnpbtUR9ww_t9P9TWT4-V1HBRhs_bs7lt6ZxjobwcDP4_TEj71lURJ12BH6Fgb24HKMnXEA4zr_0kdvGAR4bNWVnf7Ly2-IhbPjp_vjPSin5gDhK4Ffn5Rri1SXdm2W8zy89yUTWIdBHM1DuD77gSri0UpU22YLWsKcbdk1PcQA-KfEjQ_9MDCc26iMLGyXPhswkA88b178SFtWa3Hp5eRaDcKnpWLB2uRzvUJRJSdEUqgR7BSYDTTOI2z79VMMjHw9y0EudlgF9VpdIz5DMOVhirBGLtk5cX45varHBVtcP_HI5rwVvdjTdbYpRSye-WiBOfUSu7pwM59wcuMPjGmsctBsH5dgc8YQpDBovSoxBCUhQeK_HSxkhDIIVTreeCG6yzfpU6eZ3H-BIcL-DZfLLPQhKXmUPVut1Q8hRwh6Gh89Rn4DF53Q7oxr4ISz_28LTTUqs7epDh8=w1920-h883',
+  'Method': 'Launch',
+  'URL': 'https://rxfe-a.github.io/SeismeticAssets/tabs/'
+  }
 ]
 
 

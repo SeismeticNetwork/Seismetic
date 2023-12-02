@@ -9,3 +9,7 @@ function buscar() {
 function apps() {
     window.location.href="./worksheets.html"
 }
+
+function widgets() {
+    window.location.href="./w81CwlN.html"
+}

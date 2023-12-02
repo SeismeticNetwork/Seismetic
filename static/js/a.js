@@ -187,7 +187,70 @@ var objects = [
         'Banner' : '../img/banners/WhatsApp.png',
         'Method' : 'Launch',
         'URL' : 'https://web.whatsapp.com/'
-    }
+    },
+    {
+        'Name' : 'Thirty Dollar Website',
+        'Icon' : '../img/icon/thirtydollar.png',
+        'Banner' : '../img/banners/LECTURE.png',
+        'Method' : 'Launch',
+        'URL' : 'https://thirtydollar.website/'
+    },
+    {
+        'Name' : 'Youtube Music',
+        'Icon' : '../img/icon/youtubemusic.png',
+        'Banner' : '../img/banners/YTMusic.png',
+        'Method' : 'Launch',
+        'URL' : 'https://music.youtube.com/'
+    },
+    {
+        'Name' : 'Mathway',
+        'Icon' : '../img/icon/mathway_icon_rounded.png',
+        'Banner' : '../img/banners/mathway-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://www.mathway.com/Algebra'
+    },
+    {
+        'Name' : 'Flixtor',
+        'Icon' : '../img/icon/flixtor.png',
+        'Banner' : '../img/banners/flixtor.png',
+        'Method' : 'Launch',
+        'URL' : 'https://flixtor.si/'
+    },
+    {
+        'Name' : 'Xbox Cloud Gaming',
+        'Icon' : '../img/icon/xbox.png',
+        'Banner' : '../img/banners/xbox.png',
+        'Method' : 'Launch',
+        'URL' : 'https://www.xbox.com/en-us/play'
+    },
+    {
+        'Name' : 'Ruffle',
+        'Icon' : '../img/icon/ruffle.png',
+        'Banner' : '../img/banners/ruffle-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://ruffle.rs/demo/'
+    },
+    {
+        'Name' : 'waflash',
+        'Icon' : '../img/icon/waflash.png',
+        'Banner' : '../img/banners/waflash-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://clubpenguinadvanced.github.io/waflash-demo/'
+    },
+    {
+        'Name' : 'Rumble',
+        'Icon' : '../img/icon/rumble.png',
+        'Banner' : '../img/banners/rumblebanner-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://rumble.com/'
+    },
+    {
+        'Name' : 'Apple Music',
+        'Icon' : '../img/icon/apple.png',
+        'Banner' : '../img/banners/Applemusic0-min.png',
+        'Method' : 'Launch',
+        'URL' : 'https://music.apple.com/us/browse'
+    },
 ]
 
 
