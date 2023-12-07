@@ -13,3 +13,7 @@ function apps() {
 function widgets() {
     window.location.href="./w81CwlN.html"
 }
+
+function settings() {
+    window.location.href = './settings.html'
+}

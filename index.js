@@ -1,7 +1,7 @@
 import express from 'express';
 import serveStatic from 'serve-static';
 import { promises as fsPromises } from 'fs';
-import createBareServer from '@tomphttp/bare-server-node';
+import { createBareServer } from "@tomphttp/bare-server-node";
 import http from 'node:http';
 import path from 'path';
 
@@ -10,10 +10,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 const bare = createBareServer('/b/');
 const server = http.createServer();
-
-// Middleware for serving static files
-const staticMiddleware = serveStatic(path.join('static')); // Change 'public' to your static files directory
-
+const staticMiddleware = serveStatic(path.join('static'));
 server.on('request', (req, res) => {
     if (bare.shouldRoute(req)) {
         bare.routeRequest(req, res);

@@ -117,6 +117,16 @@ body {
   height: 80vh;
 }
 
+.centerybentery5 {
+  margin-top: 60px;
+  animation: fadeIn 0.5s;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -347,4 +357,40 @@ margin-top: 23px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+
+.settingCMD {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 420px;
+  height: 500px;
+  background-color: #141414;
+  display: flex;
+  border-radius: 8px;
+}
+
+.setting {
+  background-color: #1d1c1c;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.setting button {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  height: 40px;
+  background-color: #171717;
+}
+
+.apply {
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1d1c1c;
+  color: white;
 }

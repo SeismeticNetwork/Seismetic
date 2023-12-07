@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Seismetic</title>
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="s-style.css" />
+    <script src="register-sw.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/blob.js" defer></script>
+    <script src="js/Paginas.js" defer></script>
+    <script src="smartBar/smartbar.js"></script>
+  <script src="smartBar/smartbarBattery.js"></script>
+  </head>
+
+  <body>
+    <div class="topbar" id="tpbr">
+      <div class="dropdown-m-activator">
+          <img src="./smartBar/Sldiebar.png" onclick="sidebar()">
+          <div id="dropdownMenu" class="dropdown-menu" style="display: none;">
+            <div class="dropdown-item" onclick="games()">Games</div>
+            <div class="dropdown-item" onclick="apps()">Apps</div>
+            <div class="dropdown-item" onclick="settings()">Settings</div>
+            <div class="dropdown-item" onclick="widgets()">Widgets</div>
+            <div class="dropdown-item" onclick="Search()">Search</div>
+            <div class="dropdown-item" onclick="credits()">Credits</div>
+          </div>
+      </div>
+      <div class="tp-logo">
+          <img src="./smartBar/seisimetic_Transparent.png">
+      </div>
+      <div class="tp-app">
+          <img src="./smartBar/games.png" onclick="games()">
+          <img src="./smartBar/apps.png" onclick="apps()">
+          <img src="./smartBar/settings.png" onclick="settings()">
+      </div>
+    </div>
+    <div class="centerybentery5">
+        <div class="settingCMD">
+        <div class="setting">
+            <p>Panic Keybind</p>
+            <button id="key" onclick="SetPanicKey()">Set Keybind</button>
+            <h1></h1>
+        </div>
+        <div class="setting" id="theme">
+            <p>Theme</p>
+            <button>Set Theme</button>
+            <h1></h1>
+        </div>
+        <div class="setting">
+            <p>Pr0xy Mode</p>
+            <button id="switchP" onclick="RequestProxyChange()">Ultraviolet (Click to Switch)</button>
+            <h1></h1>
+        </div>
+        <button class="apply" onclick="ApplyChanges()">Apply</button>
+        </div>
+    </div>
+  </body>
+</html>
