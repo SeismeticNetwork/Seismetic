@@ -33,5 +33,9 @@ function Redir(targetURL) {
   }
   const iValue = targetURL
   const url = isUrl(iValue) ? prependHttps(iValue) : 'https://www.google.com/search?q=' + encodeURIComponent(iValue);
-  location.href = '/service/route' + "?url=" + encodeURIComponent(url);
-} 
+  var I = document.createElement('iframe')
+  I.style.width = '900px'
+  I.style.height = '1200px'
+  document.body.appendChild(I)
+  I.src = '/service/route' + "?url=" + encodeURIComponent(url);
+}   

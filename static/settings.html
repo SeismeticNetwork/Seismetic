@@ -9,7 +9,8 @@
     <title>Seismetic</title>
     <meta name="googlebot" content="index, follow, snippet" />
     <link rel="shortcut icon" content="favicon.ico" />
-    <link rel="stylesheet" href="s-style.css" />
+    <link rel="stylesheet" href="s-style.css" / id="CSS">
+    <script src="core.js"></script>
     <script src="register-sw.js" defer></script>
     <script src="js/search.js" defer></script>
     <script src="js/index.js" defer></script>
@@ -28,7 +29,7 @@
             <div class="dropdown-item" onclick="apps()">Apps</div>
             <div class="dropdown-item" onclick="settings()">Settings</div>
             <div class="dropdown-item" onclick="widgets()">Widgets</div>
-            <div class="dropdown-item" onclick="Search()">Search</div>
+            <div class="dropdown-item" onclick="buscar()">Search</div>
             <div class="dropdown-item" onclick="credits()">Credits</div>
           </div>
       </div>
@@ -38,10 +39,12 @@
       <div class="tp-app">
           <img src="./smartBar/games.png" onclick="games()">
           <img src="./smartBar/apps.png" onclick="apps()">
-          <img src="./smartBar/settings.png" onclick="settings()">
+          <img src="./smartBar/settings.png" onclick="settings()" alt="settings">
       </div>
     </div>
-    <div class="centerybentery5">
+    <h1 style="font-size: 25px; color: rgb(74, 74, 74);">Seismetic</h1>
+    <p>v2.5 BETA</p>
+    <div class="centerybentery5"> 
         <div class="settingCMD">
         <div class="setting">
             <p>Panic Keybind</p>
@@ -50,7 +53,7 @@
         </div>
         <div class="setting" id="theme">
             <p>Theme</p>
-            <button>Set Theme</button>
+            <button onclick="SetTheme()">Set Theme</button>
             <h1></h1>
         </div>
         <div class="setting">
@@ -60,6 +63,7 @@
         </div>
         <button class="apply" onclick="ApplyChanges()">Apply</button>
         </div>
+    </div>
     </div>
   </body>
 </html>

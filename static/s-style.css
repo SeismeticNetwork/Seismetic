@@ -2,7 +2,7 @@
 body {
   background-color: #0d0d0dff;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topbar {
@@ -361,12 +361,13 @@ margin-top: 23px;
 
 
 .settingCMD {
+  margin-top: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
   width: 420px;
-  height: 500px;
+  height: 650px;
   background-color: #141414;
   display: flex;
   border-radius: 8px;
@@ -376,6 +377,7 @@ margin-top: 23px;
   background-color: #1d1c1c;
   width: 90%;
   border-radius: 8px;
+  height: 110px;
 }
 
 .setting button {

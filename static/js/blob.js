@@ -35,6 +35,11 @@ function SetPanicKey() {
       });
 }
 
+function SetTheme() {
+    var Get = prompt('Please type in the name of the theme some options are | white, tyson black, classic | More themes coming soon and this is case sensitive')
+    saveTheme = Get
+}
+
 function ApplyChanges() {
     let proxyToSave = ''
     if (saveProxy == '') {
@@ -66,4 +71,5 @@ function ApplyChanges() {
          var jsonString = JSON.stringify(st5);
          alert('Saves your stuff : ' + proxyToSave + ' ' + panicKeyToSave + ' ' + themetoSave)
          localStorage.setItem('seismetic-config', jsonString)
+         window.location.href = window.location.href + '?refresh'
 }

@@ -97,7 +97,7 @@ var objects = [
     'Icon' : 'https://lh3.googleusercontent.com/fife/AK0iWDzYLf6g3gtG5bT079pDWTQPoQ9iYWCo4hzH5j8i7gOUr3Ot-kdivaaTqydHRH4pSbdHouz0bvAIdKS12ZuvRVHTgqFP24RJOoJAZkmZ2vf2P5kCtRsuDJDFw4NBMOHe89wCPlMgyOtX-wHb-eWKfRYZdEskxw0_ocWOFWafK3hZRyCUEJrPVw62edFy9E29Hw5quXMs9T2mwrAlPUs2s3pul6MQl1T0tWrrivwZ8WEPnoJgpRhArO9wse560m8oeBB9NUc6W800IWb1bXiz1aToUq1guuMbZBuMBvdgHcmo9VsEsK6q2kP_1xDlxtO67bVwB6FIhyriU4-sKNY3qjVpCrYOEbvbYrq0QnFXYCCMIiDljl0PRUf3tTpFKLzvQCY0WyWHjpwMHjgrdRYr0sWHmfqe-Odo-wptlgwTQS2u4WaVTdAyaVM_el0z9h7_zs4BufpPSFqNuRBWBNxIOlvzAVtgzYfdd4u1rq6jXdhV9_8Jd8_B6HQ0ku8wTvR5kBs7ejYFh47mFR14H9QgQU4Vva5GyaxRs7JqXi69uHY2so3dUu9uxfkCEZ7LYwWO6LlBku5nyA3aO28Zxe71-bVE8MwyWFEzyL9GgBWrrXxdSIr4vwe_1Hz1i6ppF_HD2_7XD207Ybi550adDdkk4Hu_IM4ldc_w8qu3k_ltHsaoIf2w0WSqk0iOT0FgvdDcfP9ygKrJSJ_Vwd2Mw0CC1nyMvgL72jVXfPvy3bIfPiRpKwKGhIYFDiewLzaLDrExXyudORnMSqD7PigeIEUos3lG0Wmw8Q3E8LMcGxlE1My-j4wtmx0ZkjinQtePL589i6Uw-Dr4N5CSJMV54NPlXJV2Jbnlc9unG0a4R5GCd79Go2AyLUcwYdwXr_LS3U-5wBKn87sq7coz4wszSaweeImHU7pC4t5BiVz8lHijf2-ubDETOcLgoW1v0HD-aiYls9Lo1cWWtOqdnWw_sGFCQkEk1OdknSJi54oxlIh8NPg7Vg_P9O0Lqz6ajjtzV8wMf4h8tub08x-e3AViijtKT4yaLCGc9UE6wzRYrJqSFAq6KzC8THv7tUFnsY_mNxYKqLtcf4Mjlv0yk8RRJET7EheC167EbRlK50LDOOnHbwOj51IrLHMMu_l72OYKDFuroc0WKFzSgpHXE6EnODQ5uFHrYc14mlB6FJGivPAihKfZYTboseDb6z7dpTNn6kAQBzV0AwDM2_8Hwz3pSNHfWLjgXamtwiyfQYsjwXKjf_otHyunnhWaHr8iG3eZVJ9tKCa3stmtyN41BQ9_OJFUde00JsLQMAO0u-tqrl1bif9znIOFjDGtkMeHpMr0xkKu5R0J9Zm8q7EibKUGJyERm_ld8CrVYOwVvKjiWoxz4IS-0V6EOWJJyFRv3-ANapp7CYokI4KxXTnf2X2-5sBi7XyN6U7WFwDLMbMs7DgQ9ii3PDauOmo8E5fOE4HVvbT1QMZO_NwzOPunUt5BQufCMcV3zoF1tNddxzSlDrX3mYLiJthfQSfFXNMTABuUhRdXjkm028mFp5hry85GXt3DirE9-cM=w1920-h868',
     'Banner' : 'https://lh3.googleusercontent.com/fife/AK0iWDyhiEn6JW3PJg_bnyH1dTJLo9-FrP91MuPHWCgi1mwcIjjJyTD-sK_gOokvuM1lXqOu1aC_ixtixz2EQAcgaghtJf45lwCEYSC-kyulX3qGV_mLu2WHPYhJO1MbPKkmmNpc7tXsR-51U4ZYjLjHiuEjG7yVyFiggmZlJG40ZT1IsTWNUZ5rhc0etEdon4hTDMBGPA15HduxJRc8x17FMX3UBJ_kVvKxQlrS4DO07xUATujxP4t3qtOk6kcTHiwIxh1uefiMSmMKRloYLCa1ZevhqotSMXLslxcthEyQvbYC7Nrfhd82vSWZyrUiV9frtLexAN9qpojKM_2kPSR5d46sDKj1LpKzQtjRiGAzfVKdQHv2cG0qTbA6QcCKZi0lRW4GG5fnVEqIsEwxxPrcn88sdanzPZu-LwtJ9wf2gJ_eAUF2xRUztQvMkqp-lEOBTq0B96wE67yxKIBosAylr3xa7CAu4MYFEKQ7WY622sDULNYNKpO7ZJjpJlJaF83NYzLyhwnyU6J7yNrrjAiiQZyVgNAPVp2EMhc2RHWxVSRoBpTweHovLtW3rpf1dmsuVU71ZcLxa4BGHO82EgdYgPRVSBMwe-uJeWN8FbeSpSy18KObFtUL5SYNuZsi1iI0g0xNyqdJwjaZEYqjBT8otB2h4XFfFqF2aTKMLlIrW3BN2AgWXVyXbszyyMslukKiQ1pZ2wFJKiaLvf-Sz3OVPT5SRfd1oP44PwO64XJGX2aAkbfKQxQveVi_USwTXKIMAsb2-ZPNf0P38KYVxZqEZfVDH9RsomIaoSiQH431IZMmgC85Z3CsEPko4xc-sb5LiqvT23P7o05E-GiooZ6CWEL8Wr_F4QBdQjbcefrhLAsqX_ny8aC0MLrOVSvRMT7MwqyKU6QHG7K17JMaRYVS0qQylNgRvcKRFU-k3cervkkz03z8rLOYT8yv-PG1KqkiZ6duiYxC5h_grQ-q9TLtVCBSZv8rZrWdpXvcGOvRcYxOepMPhUekCPCzkIjnNT3IOKpP_nGQHpLKiOGhqfPg-rvHOv1Zsvi2Z2BurdXGYu08M8qj3V9xQSscZCDe-lkffF8ZhR2WcctdiPrxo4ulZUEV5dxvHx62PUlBu4XEdghrM0Tcy95wOpCgkNGuWfExdNjy5p5WztZysbO8f_IZAtubrbZX3g771T_2-UVwr3AKU3-8HHxWoqofFZ0wORJQCUZ8vX5-YpeuGh0FWcjuzXtvJZllhZmkyF0D-VU5ZEM01TlgJJ1o60SpX367sjAKHDx22gg5CkLHN1u83rhAL9g-IjKFraWLkNqumlVpqJtsdVjmeuxhKsxNkAvrUEmFtuYpi8Fals8J4Zy2-27onA_eNY0u0koZGahYiPMdGlzIohmSgA4CoGYu5W7Y6Xh9x1cGCz0wMtLTsUriUp1wRTLSw3HDA-eOBw53WutBU8tYnyWkL9EjoKY0mABbET8vD6-CgO9MGU4Ol_S5bC11X4BwsTOp3C7lisL_M97K6Fc7huC0fyKT8spnD3Z7lzGiZpY3OImXShDvjiJDXBQKbk7jnhE=w1920-h868',
     'Method' : 'Launch',
-    'URL' : 'https://1v1.lol'
+    'URL' : 'https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/get@0f07946b63206a3989fb430901740f041cd34922/main.xml'
   },
   {
     'Name' : 'Justfall.lol',
@@ -938,7 +938,7 @@ var objects = [
   'Banner': 'https://lh3.googleusercontent.com/fife/AK0iWDyb4JqlacCcW4q2IoQKBHzWQ04WrFKXvzHORh0ss3w49EPfU7cXgITN28oc6f0eIH92tYA413zPgiYB1Tkd4PR0EsVJHQAey35xv_QPzvNl7Ok0DrDgrFaS7X3S2IStK3FcUDPvK2iEv7lV84GmN64PErLWdAksmnRCWq8NkC1jZ50pwlQfuV77MRqhEkw8Kf55dNmpcTBMMWcKA_uOdR2ff4dVRYOjZWEuM4gA-VUrSdHTtwvkgkK3Sm8fuiMloVnvpa4SH0kbatZ5aZwS8hNW-2uNVD26q38xIY8cEp68iW4IByczOIRXhdvz8bHIkAPJAqMYwTPU1ND6dZPNq8v5R_ZJ3fHBTgW5gQ1QCkltTScfq9_5ZGxQc3DF-5Lhsh-7D9w0XkJPgUEY1VK1K0xoAszS3qOl4-XAghLTRqJna41gdW1H3bcKbyNTAIxO0QzPbgl84ngvHTwOhyZ04JY5mRJIkT5ZklYKmlnLq_o44noxuKWuOURPHu4QrXDeY5ybve5yyGb9ALgFlQU1ni0fIyqs4yJQZ8ysB0-YM9Vy2cNXQ4x1mOPmsC9WGm8Qzn8HKH53a17bkIonUnCwuBL97ekri9qNneCWv7tXL1-Qo7IIvKE2ac5pP_LZOq9yCY7rP8fbUiZBIoPUcJg9UI83O5lHBs2MDtluejdJAUb76qrFEP-S9SMrDZHHb3RkH3Y8BIEBkhu6wnwwlxGwz6x39leWuuhcM1riKc_t-ZSK-Vp4DobHyH1hi5HVuuPTaBVzRIn_Q_WgJDdGaufyuob9Y1bKnHUl6Rwn8zs1sAIX_3p_njVATXyeoFqHOV2ke_Dg8fOJrkgNIwj7i6kdl2L86kmUtBb_wa5tP1wnDrTpQ50Mwh_RA6OLuDq_MfD-nm7bsHopNwLMV5WIRK3fFK-cV_d1SRiH_DBjoFa1L3R8bKfCyU29t-vRuwamywY-XenJKdj8m0jzBpjdTOmu6cvHLF4_vkAlreCmTooVbk7_J1DWlWXewo7nwOYGkitNe4vzBE30neTjUf5F4DZzq8fgt7OHahnj0S_0BjDZqFgkcZZHwvMXlgbB7XjiLKwZv7K9-QXf7TOk0BnpbtUR9ww_t9P9TWT4-V1HBRhs_bs7lt6ZxjobwcDP4_TEj71lURJ12BH6Fgb24HKMnXEA4zr_0kdvGAR4bNWVnf7Ly2-IhbPjp_vjPSin5gDhK4Ffn5Rri1SXdm2W8zy89yUTWIdBHM1DuD77gSri0UpU22YLWsKcbdk1PcQA-KfEjQ_9MDCc26iMLGyXPhswkA88b178SFtWa3Hp5eRaDcKnpWLB2uRzvUJRJSdEUqgR7BSYDTTOI2z79VMMjHw9y0EudlgF9VpdIz5DMOVhirBGLtk5cX45varHBVtcP_HI5rwVvdjTdbYpRSye-WiBOfUSu7pwM59wcuMPjGmsctBsH5dgc8YQpDBovSoxBCUhQeK_HSxkhDIIVTreeCG6yzfpU6eZ3H-BIcL-DZfLLPQhKXmUPVut1Q8hRwh6Gh89Rn4DF53Q7oxr4ISz_28LTTUqs7epDh8=w1920-h883',
   'Method': 'Launch',
   'URL': 'https://rxfe-a.github.io/SeismeticAssets/tabs/'
-  }
+  },
 ]
 
 
@@ -953,12 +953,13 @@ function generateModernAppliances() {
       applianceContainer.className = 'app-box';
       holder.appendChild(applianceContainer);
       var BannerCNTR = document.createElement('div');
-      applianceContainer.id = object.Name
+      applianceContainer.id = object.Name;
       BannerCNTR.className = 'app-box-image';
       applianceContainer.appendChild(BannerCNTR);
       var imageInsideOfBannerCntr = document.createElement('img');
       BannerCNTR.appendChild(imageInsideOfBannerCntr);
       imageInsideOfBannerCntr.src = object.Banner;
+      imageInsideOfBannerCntr.alt = object.Name + ' Banner'
       var TextContainer = document.createElement('div');
       TextContainer.className = "app-box-text";
       applianceContainer.appendChild(TextContainer);
@@ -968,13 +969,16 @@ function generateModernAppliances() {
       var LogoText = document.createElement('h1');
       TextContainer.appendChild(LogoText);
       LogoText.textContent = object.Name;
+      LogoForTextContainer.alt = object.Name + ' Icon';
       var PlayButton = document.createElement('button');
       TextContainer.appendChild(PlayButton);
       PlayButton.textContent = "▶";
-      // Use an IIFE to capture the current object
       (function(obj) {
           PlayButton.onclick = function() {
               Launch(obj.URL, obj.Name);
+          };
+          imageInsideOfBannerCntr.onerror = function() {
+            console.log(object.Name + "'s Banner is not working");
           };
       })(object);
   }
@@ -992,6 +996,7 @@ function generateCompactAppliances () {
       logoContainer.className = 'ap-logo-cntr';
       genType = 'Compact';
       var logoImage = document.createElement('img');
+      logoImage.alt = object.Name + ' Icon';
       logoImage.src = object.Icon;
       applianceContainer.id = object.Name
       var gameTitle = document.createElement('h1');
@@ -1004,6 +1009,8 @@ function generateCompactAppliances () {
           applianceContainer.onclick = function() {
               Launch(obj.URL, obj.Name);
           };
+
+          
       })(object);
   }
 }
