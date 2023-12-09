@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+</style>
+</head>
+<body>
+    <h1>Loading...</h1>
+    <script src="./ResourceScripts/backdrop.js"></script>
+    <script src="./ResourceScripts/go.js"></script>
+    <script src="dynamic.config.js" defer></script>
+    <script src="dynamic.worker.js" defer></script>
+    <script src="sw.js" defer></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      const encodedData = window.location.hash.substr(1);
+      Redir(encodedData)
+    }, 2000);
+  });    
+    </script>
+    <script src="./sw.js"></script>
+</body>
+</html>

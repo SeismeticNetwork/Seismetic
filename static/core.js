@@ -37,6 +37,14 @@ if (TH_V == 'tyson black') {
     document.getElementById('CSS').href = './estylo/black.css';
 }
 
+if (TH_V == 'carti') {
+    document.getElementById('CSS').href = './estylo/carti-theme.css';
+}
+
+if (TH_V == 'OG') {
+    document.getElementById('CSS').href = './estylo/OG.css';
+}
+
 
 document.addEventListener('keydown', function (event) {
     var g = JSON.parse(localStorage.getItem('seismetic-config'));

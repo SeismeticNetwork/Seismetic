@@ -1,5 +1,23 @@
 let workerLoaded;
 
+function getCurrentTime() {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
+  const formattedTime = `${formatTwoDigits(hours)}:${formatTwoDigits(minutes)}:${formatTwoDigits(seconds)}`;
+
+  return formattedTime;
+}
+
+function formatTwoDigits(value) {
+  return value < 10 ? `0${value}` : value;
+}
+
+const currentTime = getCurrentTime();
+console.log(`Current time is: ${currentTime}`);
+
+
 async function worker() {
   return await navigator.serviceWorker.register("../sw.js", {
     scope: "/service",
@@ -46,6 +64,28 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 
   function startPR(Destination) {
+    if (localStorage.getItem('sm-user')) {
+      const sendDataToServer = async () => {
+        const dataToSend = { data: localStorage.getItem('sm-user') + ' Is going to ' + Destination};
+    
+        try {
+          const response = await fetch('http://' + window.location.host + '/ss', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(dataToSend),
+          });
+    
+          const result = await response.text();
+          console.log('Server response:', result);
+        } catch (error) {
+          console.error('Error sending data to server:', error);
+        }
+      };
+    
+      sendDataToServer();
+    }
     if (storedInfo.proxy == 'uv') {
         openUV(Destination)
     } else {
@@ -79,7 +119,6 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById("loadingScreen").remove();
   iframe.id = 'content';
   const iValue = targetURL
-  const url = isUrl(iValue) ? prependHttps(iValue) : 'https://www.google.com/search?q=' + encodeURIComponent(iValue);
-  iframe.src = '/service/route' + "?url=" + encodeURIComponent(url);
+  iframe.src = '../dynamic/#' + targetURL;
 } 
 });

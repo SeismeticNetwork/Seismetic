@@ -1,27 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Dynamic</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/x-icon" href="/resources/img/logo.png">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
-	<link rel="stylesheet" href="resources/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Prevents scrolling */
+        }
 
+        .sm-register {
+            position: fixed;
+            top: 50%;
+			border-radius: 15px;
+            left: 50%;
+			width: 300px;
+			height: 300px;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            background-color: #111111;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			color: white;
+			font-family: sans-serif;
+        }
+
+		.sm-register p {
+			font-size: 15px;
+		}
+
+		.loader {
+			width: 50px;
+			height: 50px;
+			animation: spin 2s linear infinite; 
+		}
+
+		@keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+	.sm-logo {
+		width: 300px;
+		height: 150px;
+	}
+    </style>
 </head>
 <body>
-  <canvas></canvas>
-  <h1> Dynamic </h1>
-  <button onclick="Redir('https://google.com')">Test Dynamic</button>
-	<form action="/service/route" action="" method="POST" id="uform">
-	  <input title="query" name="url" autocomplete="off" >
-	</form>
-  <div class="footer"> 
-    <div class="copyright"> Copyright Nebula Services 2023 </div>
- </div>  
 
-  <script src="./dynamic/backdrop.js"></script>
-  <script src="./dynamic/notice.js"></script>
-  <script src="./dynamic/go.js"></script>
+    <div class="sm-register">
+		<img alt="SM-Logo" class="sm-logo" src="./imagen/seisimetic_Transparent.png">
+		<p>Logging in...</p>
+		<img alt="sm-load" class="loader" src="./imagen/loader.svg">
+	</div>
+<h1>test</h1>
 </body>
 </html>

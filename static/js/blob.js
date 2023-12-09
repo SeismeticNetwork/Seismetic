@@ -36,7 +36,7 @@ function SetPanicKey() {
 }
 
 function SetTheme() {
-    var Get = prompt('Please type in the name of the theme some options are | white, tyson black, classic | More themes coming soon and this is case sensitive')
+    var Get = prompt('Enter Theme name : \n white \n tyson black \n carti \n OG \nclassic (Default)')
     saveTheme = Get
 }
 

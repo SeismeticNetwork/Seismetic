@@ -1,7 +1,7 @@
 let workerLoaded;
 
 async function worker() {
-  return await navigator.serviceWorker.register("../sw.js", {
+  return await navigator.serviceWorker.register("/sw.js", {
     scope: "/service",
   });
 }
@@ -19,7 +19,6 @@ function prependHttps(url) {
 }
 
 function isUrl(val = "") {
-  // Use a regular expression to check for a valid URL pattern
   const urlPattern = /^(http(s)?:\/\/)?([\w-]+\.)+[\w]{2,}(\/.*)?$/;
   return urlPattern.test(val);
 }
